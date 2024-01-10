@@ -1,0 +1,49 @@
+:root {
+    --darkred:#240
+}
+
+
+body {
+    font-family: 'barlow', sans-serif;
+}
+
+nav, main, aside, footer {
+    border: 4px solid var(--darkred);
+    margin: 12px;
+    padding: 10px;
+    font-size: 30px;
+}
+h2, header{
+    border: 8px solid var(--darkred);
+    margin: 12px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+header{
+    text-size-adjust: 8px;
+}
+
+article{
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+main {
+    overflow: hidden;
+}
+
+ul, li {
+    margin: bottom 12px;
+    list-style: square;
+}
+
+dt {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,42 @@
+:root {
+    --darkred:#900
+}
+
+
+body {
+    font-family: 'barlow', sans-serif;
+}
+
+header, nav, main, article, aside, footer {
+    border: 4px solid var(--darkred);
+    margin: 12px;
+    padding: 10px;
+}
+
+img {
+    width: 385px;
+}
+
+article{
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+main {
+    overflow: hidden;
+}
+
+ul, li {
+    margin: bottom 12px;
+    list-style: square;
+}
+
+dt {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
